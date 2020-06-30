@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="lwjgl">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl/lwjgl.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl/lwjgl-natives-linux.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl-glfw/lwjgl-glfw.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl-glfw/lwjgl-glfw-natives-linux.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl-opengl/lwjgl-opengl.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl-opengl/lwjgl-opengl-natives-linux.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl/lwjgl-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl-glfw/lwjgl-glfw-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl-opengl/lwjgl-opengl-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl/lwjgl-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl-glfw/lwjgl-glfw-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Documents/erik/lwjgl/lwjgl-opengl/lwjgl-opengl-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
