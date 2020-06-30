@@ -9,6 +9,7 @@ uniform mat4 projection;
 uniform mat4 model;
 
 out float cameraDist;
+out vec3 vPos;
 out vec3 vColor;
 flat out vec3 vNormal;
 
@@ -16,6 +17,7 @@ void main()
 {
     vec4 viewmodeled = view * model * vec4(aPos, 1.0);
     gl_Position = projection * viewmodeled;
+    vPos = aPos;
     vColor = aColor;
     vNormal = aNormal;
     cameraDist = -viewmodeled.z;
