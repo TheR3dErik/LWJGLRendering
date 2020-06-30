@@ -59,8 +59,8 @@ public class Launcher
                 0.0f, 0.0f, 0.0f
         };
 
-        Shader shader = Shader.loadFromFile("/home/s/IdeaProjects/LWJGLRendering-master/LWJGLRendering-master/src/graphics/main.vert",
-                "/home/s/IdeaProjects/LWJGLRendering-master/LWJGLRendering-master/src/graphics/main.frag");
+        Shader shader = Shader.loadFromFile("./assets/main.vert",
+                "./assets/main.frag");
 
         chunk = new int[CHUNK_SIZE*CHUNK_SIZE*CHUNK_SIZE];
         final int AIR = 0x00000000;
